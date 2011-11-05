@@ -107,8 +107,6 @@ GEM
       filters_spam (~> 0.2)
       refinerycms-core (~> 1.0.3)
       seo_meta (~> 1.1.0)
-    refinerycms-calendar (1.1.0)
-      refinerycms-core (>= 0.9.9.1)
     refinerycms-core (1.0.8)
       acts_as_indexed (~> 0.7)
       awesome_nested_set (~> 2.0)
@@ -175,7 +173,6 @@ DEPENDENCIES
   mysql2 (~> 0.2.11)
   refinerycms (~> 1.0.8)
   refinerycms-blog (~> 1.6)
-  refinerycms-calendar
   refinerycms-i18n (~> 1.0.0)
   refinerycms-inquiries (~> 1.0)
   refinerycms-news (~> 1.2)
