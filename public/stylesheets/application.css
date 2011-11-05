@@ -1,4 +1,69 @@
 /*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
 */
+* {margin:0;padding:0}
+body {margin:20px 0 0 0;background:#4f7fa9 url(/images/bg.gif) repeat-x;width:100%;padding:0}
+.fleft {float:left}
+.fright {float:right}
+.fclear {clear:both}
+body, th, td, input, textarea {font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#666}
+form {}
+h1, h2, h3 {color:#4f7fa9}
+h1 {font-size:3em;padding-top:10px}
+h2 {text-transform:uppercase;font-size:1.1em;font-weight:bold;color:#4f7fa9;padding-top:10px}
+h3 {font-size:1em}
+ul, ol {margin-left:3em}
+a {text-decoration:none;color:#4f7fa9}
+a:hover {border:none}
+h1 a, h2 a, h3 a {border:none;text-decoration:none;color:#4f7fa9}
+h1 a:hover, h2 a:hover, h3 a:hover {background:none;color:#3�7bcf}
+#page_container {width:978px;margin:0 auto;border:20px solid #f3f3f3}
+/* Header */
+header {width:978px;height:515px;margin:0 auto}
+#menu {float:left;width:948px;padding-left:30px;background:url(images/menu.gif) repeat-x}
+#menu ul {margin:0;padding:0;list-style:none;line-height:normal}
+#menu li {float:left}
+#menu a {display:block;float:left;height:32px;width:185px;text-align:center;text-decoration:none;font-size:1.1em;font-weight:bold;color:#fff;padding-top:20px}
+#menu a:hover {background: #f3f3f3;color:#2c2e22}
+#logo {width:978px;height:463px;margin:0 auto;background:url(images/img12.jpg) no-repeat left top}
+#logo h1 {padding-top:100px;padding-left:20px;color:#fff;font-size:24px}
+#logo h2 {font-style:italic;font-size:10px;padding-left:20px}
+#logo p {clear:left;margin:0;padding:0 0 0 20px;line-height:normal;font-size:1.2em;font-weight:bold;color:#fff}
+#logo a {color:#fff}
+/* Page */
+#page {width:978px;background:#fff;border-top:none;padding-top:20px}
+.inner_copy {border:0;color:#f00;float:left;width:50% !important;margin:-100% 0 0 0;overflow:hidden;line-height:0;padding:0;font-size:11px}
+#content {float:left;width:650px;padding:0 0 0 20px}
+.post {}
+.post .title {margin:0;font-weight:normal}
+.post h1.title {background:url(images/img18.gif) no-repeat left top;padding:15px 0 0 15px;height:30px;font-size:2.4em}
+.post .entry {padding:0 10px 30px 15px}
+.post .meta {margin:0;padding:5px 0 0 15px;background:url(images/img04.gif) repeat-x left bottom;text-transform:uppercase;font-family:Arial,Helvetica,sans-serif;font-size:10px;color:#4f7fa9}
+.post .meta a {color:#4f7fa9}
+.post .links {margin:0}
+.post .tags {margin:0;text-transform:uppercase;font-size:.8em;font-weight:bold;background:url(images/img04.gif) repeat-x}
+.post .links a, .post .tags a {border:none}
+/* Recent Posts */
+#recent-posts {}
+#recent-posts h2 {margin:0;background:url(images/img13.gif) no-repeat left top;padding:15px 0 0 15px;height:30px}
+#recent-posts h3 {margin:0;font-size:13px;padding:15px 0 0 15px;background:url(images/img04.gif) repeat-x left bottom}
+#recent-posts p {margin:0 0 10px 0;padding:15px 0 0 15px;line-height:22px;font-size:13px}
+/* Sidebars */
+.sidebar {float:left}
+.sidebar ul {margin:0;padding:0;list-style:none}
+.sidebar li {margin-bottom:2em}
+.sidebar li ul {}
+.sidebar li li {margin:0}
+.sidebar li h2 {margin:0 0 1em 0}
+#sidebar1 {width:230px;padding:0 0 0 20px}
+#sidebar2 {width:240px;padding:0 20px 0 20px}
+#sidebar2 li h2 {margin:0 0 1em 0;background:url(images/title.gif) no-repeat left top;padding:13px 0 0 13px;color:#fff;height:46px}
+#sidebar2 li ul {line-height:normal;background:url(images/img04.gif) repeat-x}
+#sidebar2 li li {padding:5px;background:url(images/img04.gif) repeat-x left bottom;font-size:.8em}
+#sidebar2 li a {border:none;padding-left:10px;font-size:11px}
+#sidebar2 li a:hover {border:none;padding-left:10px}
+/* Footer */
+footer {text-align:center;font-size:9px;color:#fff;height:40px;padding-top:10px;margin:0 auto;width:978px}
+footer a {color:#fff}
